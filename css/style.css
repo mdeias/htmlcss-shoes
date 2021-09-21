@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+header{
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  z-index: 50;
+}
+
+li{
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  
+}
+
+.blocco{
+  position: relative;
+  height: 100vh;
+}
+
+.rosso {
+  background-color: red;
+}
+
+.verde{
+  background-color: green;
+}
+
+.giallo{
+  background-color: yellow;
+}
+
+#sezione1, #sezione2, #sezione3{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+h1{
+  font-size: 350%;
+  text-align: center;
+  color: yellow;
+}
+
+.greentext{
+  color: green;
+}
+
