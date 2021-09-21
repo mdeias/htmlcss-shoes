@@ -1,3 +1,5 @@
+/* stili generali */
+
 *{
   box-sizing: border-box;
   margin: 0px;
@@ -8,6 +10,8 @@
 html{
   scroll-behavior: smooth;
 }
+
+/* stili menù */
 
 header{
   position: fixed;
@@ -34,6 +38,7 @@ li:hover{
   box-shadow: 2px 2px black;
 }
 
+/* stili dei blocchi */
 
 .blocco{
   position: relative;
@@ -52,7 +57,9 @@ li:hover{
   background-color: yellow;
 }
 
-.sezione1, .sezione2, .sezione3{
+/* stili immagini e testi */
+
+.sezione{
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
