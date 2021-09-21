@@ -5,6 +5,10 @@
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 header{
   position: fixed;
   top: 20px;
@@ -12,7 +16,7 @@ header{
   z-index: 50;
 }
 
-li{
+header li{
   display: inline-block;
   background-color: white;
   border: 1px solid black;
@@ -22,8 +26,14 @@ li{
 a{
   display: inline-block;
   text-decoration: none;
-  
+  padding: 10px;
+  color: black;
 }
+
+li:hover{
+  box-shadow: 2px 2px black;
+}
+
 
 .blocco{
   position: relative;
@@ -42,7 +52,7 @@ a{
   background-color: yellow;
 }
 
-#sezione1, #sezione2, #sezione3{
+.sezione1, .sezione2, .sezione3{
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
